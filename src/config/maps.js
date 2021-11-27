@@ -1,6 +1,4 @@
-const tileUrl = 'https://assets.foxhole.tools/tile/clasic';
-
-const mapListConf = [
+const mapsConf = [
 
     {
         name: 'Acrithia',
@@ -168,10 +166,3 @@ const mapListConf = [
     },
 
 ];
-
-// Set all tile
-// let mapList = {};
-// for (const map of mapListConf)
-// {
-//     mapList{map} = L.tileLayer(tileUrl + map + '/{z}/{z}_{x}_{y}.png');
-// }
